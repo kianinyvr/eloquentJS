@@ -9,3 +9,7 @@ function customReduce (array, combine, start) {
 }
 
 console.log(customReduce([1,2,3,4], (a,b) => a +b, 0));
+
+// now we are going to use the standard array method reduce
+
+console.log([1,2,3,4].reduce((a,b)=> a + b));
